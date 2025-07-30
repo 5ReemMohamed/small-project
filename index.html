@@ -1,0 +1,1094 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>نظام إدارة الخدمات</title>
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12">
+            <h1 class="header-title text-center mb-4">
+              <i class="fas fa-car ms-2"></i>
+                سيارتي
+            </h1>
+            <h2 class="header-title text-center">
+              <i class="fas fa-cogs ms-2"></i>
+              نظام إدارة الخدمات المرورية
+            </h2>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="section-1">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12">
+            <div class="alert alert-orange mb-5 animate-fade-in">
+              <div class="alert-icon">
+                <i class="fas fa-info-circle"></i>
+              </div>
+              <div class="alert-content">
+                <h6 class="alert-heading">المزيد ... من نحن:</h6>
+                <p class="mb-0">
+                  ميزة تخص وكيل الخدمة من المعارض التي تقدم خدمات مرورية عبارة عن خدمة وسيط يمكن وکیل الخدمة من
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 mb-4">
+            <div class="card account-card  animate-slide-up">
+              <div class="card-header">
+                <i class="fas fa-user-circle me-2"></i>
+                <h5 class="mb-0">حساب عادي</h5>
+              </div>
+              <div class="card-body">
+                <div class="d-grid gap-3">
+                  <button class="btn btn-custom btn-browse">
+                    <i class="fas fa-search me-2"></i>
+                    التصفح
+                  </button>
+                  <button class="btn btn-custom btn-services">
+                    <i class="fas fa-list me-2"></i>
+                    والاطلاع على خدمات منصه سيارتي
+                  </button>
+                  <button class="btn btn-custom btn-login">
+                    <i class="fas fa-sign-in-alt me-2"></i>
+                    تشمل الدخول :
+                  </button>
+                  <button class="btn btn-custom btn-phone">
+                    <i class="fas fa-phone me-2"></i>
+                    رقم الهاتف
+                  </button>
+                  <button class="btn btn-custom btn-verify">
+                    <i class="fas fa-shield-alt me-2"></i>
+                    بدون رمز التأكيد
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-9 col-md-8">
+            <div class="row mb-4">
+              <div class="col-12">
+                <h3 class="section-title text-center mb-4">
+                  <i class="fas fa-th-large me-2"></i>
+                  فئات الخدمات
+                </h3>
+                <div class="service-categories">
+                  <div class="row g-3">
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <div class="service-box animate-hover" data-service="1">
+                        <div class="service-icon">
+                          <i class="fas fa-receipt"></i>
+                        </div>
+                        <span class="service-text">بيع وشراء</span>
+                        <small class="service-number">(1)</small>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <div class="service-box animate-hover" data-service="2">
+                        <div class="service-icon">
+                          <i class="fas fa-file-signature"></i>
+                        </div>
+                        <span class="service-text">توثيق المعقود</span>
+                        <small class="service-number">(2)</small>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <div class="service-box animate-hover" data-service="3">
+                        <div class="service-icon">
+                          <i class="fas fa-file-invoice-dollar"></i>
+                        </div>
+                        <span class="service-text">سداد جمارك</span>
+                        <small class="service-number">(3)</small>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <div class="service-box animate-hover" data-service="4">
+                        <div class="service-icon">
+                          <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <span class="service-text">سداد مخالفات</span>
+                        <small class="service-number">(4)</small>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <div class="service-box animate-hover" data-service="5">
+                        <div class="service-icon">
+                          <i class="fas fa-car"></i>
+                        </div>
+                        <span class="service-text">خدمات المرور</span>
+                        <small class="service-number">(5)</small>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <div class="service-box animate-hover" data-service="6">
+                        <div class="service-icon">
+                          <i class="fas fa-clipboard-list"></i>
+                        </div>
+                        <span class="service-text">سداد حجوزات</span>
+                        <small class="service-number">(6)</small>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <div class="service-box animate-hover" data-service="7">
+                        <div class="service-icon">
+                          <i class="fas fa-car-side"></i>
+                        </div>
+                        <span class="service-text">تأجير السيارات</span>
+                        <small class="service-number">(7)</small>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <div class="service-box animate-hover" data-service="8">
+                        <div class="service-icon">
+                          <i class="fas fa-users"></i>
+                        </div>
+                        <span class="service-text">نادي السيارات</span>
+                        <small class="service-number">(8)</small>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <div class="service-box animate-hover" data-service="9">
+                        <div class="service-icon">
+                          <i class="fas fa-truck"></i>
+                        </div>
+                        <span class="service-text">شحن</span>
+                        <small class="service-number">(9)</small>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <div class="service-box animate-hover" data-service="10">
+                        <div class="service-icon">
+                          <i class="fas fa-gavel"></i>
+                        </div>
+                        <span class="service-text">مزايدات</span>
+                        <small class="service-number">(10)</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12">
+                <div class="card form-details-card">
+                  <div class="card-header">
+                    <i class="fas fa-clipboard-check me-2"></i>
+                    <h5 class="mb-0">تفاصيل الخدمة</h5>
+                  </div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="service-info-box mb-4">
+                          <h6 class="service-title">حساب معرض - الرقم التالي ..... - رقم المعرض ......</h6>
+                          <p class="service-description">
+                            الخدمة الأولى : خطوات البيع - مرحبا عبارة عن وسيط منصة إلكترونية تمكنك من بيع وشراء المركبات
+                          </p>
+                        </div>
+                        
+                        <div class="form-section">
+                          <h6 class="form-step-title">
+                            <span class="step-number">①</span>
+                            قم بإدخال البيانات الشكلية للمركبة:
+                          </h6>
+                          <div class="row g-3">
+                            <div class="col-md-6">
+                              <div class="form-field">
+                                <label class="form-label">١- المارکة</label>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="form-field">
+                                <label class="form-label">٢- الموديل</label>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="form-field">
+                                <label class="form-label">٣- رقم اللوحة</label>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="form-field">
+                                <label class="form-label">٤- رقم اللوحة المدنية</label>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="form-field">
+                                <label class="form-label">٥- رقم المحرك</label>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="form-field">
+                                <label class="form-label">٦- تاريخ البيان الجمركي</label>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="form-field">
+                                <label class="form-label">٧- رقم البيان الجمركي</label>
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="form-field">
+                                <label class="form-label">٨- مصدر البيان</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contract-section">
+      <div class="container py-5">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <div class="contract-header">
+              <h2 class="contract-title">شكل المبايعة</h2>
+              <div class="contract-number">
+                <i class="fas fa-file-contract me-2"></i>
+                رقم العقد الآلي: 002641G470
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5 align-items-center">
+          <div class="col-lg-3">
+            <div class="photo-container">
+              <div class="photo-placeholder">
+                <img src="images/img2.jpg" 
+                     alt="صورة شخصية" class="profile-image">
+              </div>
+              <div class="photo-label mb-4 mb-lg-0">صورة المالك</div>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="data-section">
+              <h5 class="section-header">
+                <span class="section-number">١</span>
+                بيانات المركبة
+              </h5>
+              <div class="table-responsive">
+                <table class="table custom-table">
+                  <tbody>
+                    <tr>
+                      <td class="table-header">الماركة</td>
+                      <td class="table-data">صالون</td>
+                      <td class="table-header">رقم المحرك</td>
+                      <td class="table-data">7241841</td>
+                    </tr>
+                    <tr>
+                      <td class="table-header">الموديل</td>
+                      <td class="table-data">2004</td>
+                      <td class="table-header">بيانات الجمارك</td>
+                      <td class="table-data">6301</td>
+                    </tr>
+                    <tr>
+                      <td class="table-header">اللون</td>
+                      <td class="table-data">أبيض</td>
+                      <td class="table-header">تاريخ البيان الجمركي</td>
+                      <td class="table-data">30/3/2013</td>
+                    </tr>
+                    <tr>
+                      <td class="table-header">رقم القاعدة</td>
+                      <td class="table-data">75785004233</td>
+                      <td class="table-header">مصدر البيان الجمركي</td>
+                      <td class="table-data">الطوال</td>
+                    </tr>
+                    <tr>
+                      <td class="table-header">رقم اللوحه المعدنية</td>
+                      <td class="table-data">2384</td>
+                      <td class="table-header"></td>
+                      <td class="table-data"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-12">
+            <div class="data-section">
+              <h5 class="section-header">
+                <span class="section-number">٢</span>
+                بيانات البائع
+              </h5>
+              <div class="table-responsive">
+                <table class="table custom-table">
+                  <tbody>
+                    <tr>
+                      <td class="table-header">الأسم ثلاثي</td>
+                      <td class="table-data highlight">إبراهيم علي أحمد</td>
+                      <td class="table-header">النقب</td>
+                      <td class="table-data">حيدان</td>
+                    </tr>
+                    <tr>
+                      <td class="table-header">الرقم الوطني</td>
+                      <td class="table-data">01110043094</td>
+                      <td class="table-header">جهة الإصدار</td>
+                      <td class="table-data">المركز الرئيسي</td>
+                    </tr>
+                    <tr>
+                      <td class="table-header">تاريخ الإصدار</td>
+                      <td class="table-data">26/3/2022</td>
+                      <td class="table-header"></td>
+                      <td class="table-data"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-12">
+            <div class="data-section">
+              <h5 class="section-header">
+                <span class="section-number">٣</span>
+                بيانات المشتري
+              </h5>
+              <div class="table-responsive">
+                <table class="table custom-table">
+                  <tbody>
+                    <tr>
+                      <td class="table-header">الأسم ثلاثي</td>
+                      <td class="table-data highlight">إبراهيم عبد الله محمد</td>
+                      <td class="table-header">النقب</td>
+                      <td class="table-data">سيف</td>
+                    </tr>
+                    <tr>
+                      <td class="table-header">الرقم الوطني</td>
+                      <td class="table-data">01110022083</td>
+                      <td class="table-header">جهة الإصدار</td>
+                      <td class="table-data">المركز الرئيسي</td>
+                    </tr>
+                    <tr>
+                      <td class="table-header">تاريخ الإصدار</td>
+                      <td class="table-data">12/10/2021</td>
+                      <td class="table-header"></td>
+                      <td class="table-data"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5">
+          <div class="col-12">
+            <div class="data-section">
+              <h5 class="section-header">
+                <span class="section-number">٤</span>
+                بيانات المعرض
+              </h5>
+              <div class="table-responsive">
+                <table class="table custom-table">
+                  <tbody>
+                    <tr>
+                      <td class="table-header">رقم المعرض</td>
+                      <td class="table-data">REEM 345</td>
+                      <td class="table-header">المحافظة</td>
+                      <td class="table-data highlight">عدن</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="calculation-box">
+              <div class="calculation-header">
+                <i class="fas fa-calculator me-2"></i>
+                <h6>تحصيل رسوم تعميد المبايعات</h6>
+              </div>
+              <div class="calculation-content">
+                <p>تم تحصيل رسوم تجديد البطاقة الصادرة</p>
+                <p>برقم ............ بتاريخ ../../../....</p>
+                <hr class="calculation-divider">
+                <div class="payment-methods">
+                  <div class="payment-item electronic">
+                    <i class="fas fa-credit-card me-2"></i>
+                    <span>بالتحصيل الإلكتروني = ريال ١٥٠٠</span>
+                  </div>
+                  <div class="payment-item cash">
+                    <i class="fas fa-money-bills me-2"></i>
+                    <span>بالنقد = ٩٢٥</span>
+                  </div>
+                </div>
+                <p class="signature">م.ع/ع/م</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="currency-section">
+              <h6 class="currency-title">العملات المتداولة</h6>
+              <div class="currency-item">
+                <div class="currency-amount">٢٥٠٠٠</div>
+                <div class="currency-note note-25000">
+                  <div class="currency-text">٢٥٠٠٠</div>
+                  <div class="currency-subtext">ريال يمني</div>
+                </div>
+              </div>
+              <div class="currency-item">
+                <div class="currency-amount">٢٤٣٠٠</div>
+                <div class="currency-note note-24300">
+                  <div class="currency-text">٢٤٣٠٠</div>
+                  <div class="currency-subtext">ريال يمني</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="fee-schedule">
+              <div class="fee-header">
+                <i class="fas fa-table me-2"></i>
+                <h6>جدول تحديد رسوم تجديد البطاقات</h6>
+              </div>
+              <div class="table-responsive">
+                <table class="table fee-table">
+                  <thead>
+                    <tr>
+                      <th>المبلغ</th>
+                      <th>السنة</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="current-year"><td>٢٥٠٠٠</td><td>٢٠٢٤</td></tr>
+                    <tr><td>٢٤٣٠٠</td><td>٢٠٢٣</td></tr>
+                    <tr><td>٢٢٠٨٨</td><td>٢٠٢٢</td></tr>
+                    <tr><td>٢١٦٠٠</td><td>٢٠٢١</td></tr>
+                    <tr><td>١٩٨٠٠</td><td>٢٠٢٠</td></tr>
+                    <tr><td>١٦٤٠٠</td><td>٢٠١٩</td></tr>
+                    <tr><td>١٣٣٠٠</td><td>٢٠١٨</td></tr>
+                    <tr><td>١٢٥٠٠</td><td>٢٠١٧</td></tr>
+                    <tr><td>١٠٥٠</td><td>٢٠١٦</td></tr>
+                    <tr><td>٦٠٠٤٠٠</td><td>٢٠١٥</td></tr>
+                    <tr><td>٥٥٠٠</td><td>٢٠١٤</td></tr>
+                    <tr><td>٤٠٠٠</td><td>٢٠١٣</td></tr>
+                    <tr><td>٣٥٠٠</td><td>٢٠١٢</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="documents-section">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h3 class="section-title">
+              <i class="fas fa-images me-2"></i>
+              المستندات المطلوبة
+            </h3>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="document-card h-100">
+              <div class="document-header">
+                <i class="fas fa-id-card me-2"></i>
+                <h5>الصورة الأمامية للهوية</h5>
+              </div>
+              <div class="document-image">
+                <img src="images/img1.jpg" 
+                     class="img-fluid rounded" alt="الصورة الأمامية للهوية">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="document-card h-100">
+              <div class="document-header">
+                <i class="fas fa-id-card me-2"></i>
+                <h5>الصورة الخلفية للهوية</h5>
+              </div>
+              <div class="document-image">
+                <img src="images/img3.jpg" 
+                     class="img-fluid rounded" alt="الصورة الخلفية للهوية">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="document-card h-100">
+              <div class="document-header">
+                <i class="fas fa-camera me-2"></i>
+                <h5>سيلفي العميل</h5>
+              </div>
+              <div class="document-image">
+                <img src="images/img2.jpg" 
+                     class="img-fluid rounded" alt="سيلفي العميل">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 bg-white">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="services-card h-100">
+              <div class="heading">
+                <h3> توثيق العقد </h3>
+              </div>
+              <div class="p-4 body-heading">
+                <h4> معلومات الخدمة :</h4>
+                <p>عقب حصولك علي رقم تسلسلي للمبايعه بامكانك توثيق العقد رسميا باتباع الخطوات التالية:</p>
+              </div>
+              <div class="service-body p-2">
+                <ul class="d-flex flex-wrap gap-3 list-unstyled">
+                  <li>
+                    <span>ثمن المركبة</span>
+                  </li>
+                  <li>
+                    
+                    <span>الطراز</span>
+                  </li>
+                  <li>
+                    
+                    <span>سنة الصنع</span>
+                  </li>
+                  <li>
+                    <span>تم توثيق العقد الكترونيا بالرقم التسلسلي اعلاه وعلي مسئولية وكيل الخدمة</span>
+                  </li>
+                  <li>
+                    <span>سند الرسوم</span>
+                  </li>
+                  <li>
+                    <span>مبلغ الرسوم</span>
+                  </li>
+                  <li>
+                    <span>ضيف اعلان</span>
+                  </li>
+                  <li>
+                    <span>المحفظه</span>
+                  </li>
+                  <li>
+                    <span>الرصيد</span>
+                  </li>
+                  <li>
+                    <span>تعبئة الرصيد</span>
+                  </li>
+                  <li>
+                    <span> الحركات</span>
+                  </li>
+                  <li>
+                    <span> حساب المرور</span>
+                  </li>
+                  <li>
+                    <span> حساب المعدل</span>
+                  </li>
+                  <li>
+                    <span> جهات اخري</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="services-card h-100">
+              <div class="heading">
+                <h3> خدمات المرور</h3>
+              </div>
+              <div class="p-4 body-heading">
+                <h4> معلومات الخدمة :</h4>
+              </div>
+              <div class="service-body p-2">
+                <ul class="d-flex flex-wrap gap-3 list-unstyled">
+                  <li>
+                    <span>حجز الرقم الالكتروني</span>
+                  </li>
+                  <li>
+                    
+                    <span>تجديد رخصة المركبة</span>
+                  </li>
+                  <li>
+                    
+                    <span>تجديد رخص القيادة</span>
+                  </li>
+                  <li>
+                    <span>اخري</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+         <div class="col-lg-6">
+            <div class="services-card h-100">
+              <div class="heading">
+                <h3>الخدمة التعليمية</h3>
+              </div>
+              <div class="p-4 body-heading">
+                <h4> معلومات الخدمة :</h4>
+              </div>
+              <div class="service-body p-2">
+                <p> التعليم : استخراج شهادة ميلاد لكل طفل يدرس تمهيدي او صف اول ابتدائي الكتروني مربوط منها بالرقم الوطني للبطاقة الشخصية وهو الرقم المالي لمنع التزوير مستقبلا</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="services-card h-100">
+              <div class="heading">
+                <h3>الحجوزات</h3>
+              </div>
+              <div class="p-4 body-heading">
+                <h4> معلومات الخدمة :</h4>
+              <p>خدمة تمكنك من الاطلاع على سبب حجز سيارتك ومكان الحجز بالاستعلام أدخل البيانات الآتي</p>
+              </div>
+              <div class="service-body p-2">
+                <ul class="d-flex flex-wrap gap-3 list-unstyled">
+                  <li>
+                    <span>الماركة</span>
+                  </li>
+                  <li>
+                    
+                    <span>الموديل</span>
+                  </li>
+                  <li>
+                    
+                    <span>اللون</span>
+                  </li>
+                  <li>
+                    <span>رقم القعادة</span>
+                  </li>
+                  <li>
+                    <span>رقم اللوحة المعدنية</span>
+                  </li>
+                  <li>
+                    <span>نوعية المخالفة</span>
+                  </li>
+                  <li>
+                    <span>قيمة المخالفة</span>
+                  </li>
+                  <li>
+                    <span>سداد المخالفة</span>
+                  </li>
+                  <li>
+                    <span>مكان التوقيت</span>
+                  </li>
+                  <li>
+                    <span>سبب الحجز</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="services-card h-100">
+              <div class="heading">
+                <h3> خدمات السيارات</h3>
+              </div>
+              <div class="p-4 body-heading">
+                <h4> معلومات الخدمة :</h4>
+              </div>
+              <div class="service-body p-2">
+                <ul class="d-flex flex-wrap gap-3 list-unstyled">
+                  <li>
+                    <span>مكاتل تأجير السيارات</span>
+                  </li>
+                  <li>
+                    
+                    <span>النقل الجماعي</span>
+                  </li>
+                  <li>
+                    
+                    <span>خدمات الصيانة</span>
+                  </li>
+                  <li>
+                    <span> خدمات النقل</span>
+                  </li>
+                  <li>
+                    <span>خدمات التراخيص</span>
+                  </li>
+                  <li>
+                    <span>قطع غيار السيارات</span>
+                  </li>
+                  <li>
+                    <span>محطات</span>
+                  </li>
+                  <li>
+                    <span>زيوت وكفرات</span>
+                  </li>
+                  <li>
+                    <span>بطاريات</span>
+                  </li>
+                  <li>
+                    <span>بنشر</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="services-card h-100">
+              <div class="heading">
+                <h3>سيارات ومركبات</h3>
+              </div>
+              <div class="service-body p-2">
+                <ul class="d-flex flex-wrap gap-3 list-unstyled">
+                  <li>
+                    <span>تصفح</span>
+                  </li>
+                  <li>
+                    
+                    <span>دردش</span>
+                  </li>
+                  <li>
+                    
+                    <span>اشتري</span>
+                  </li>
+                  <li>
+                    <span>بيع</span>
+                  </li>
+                </ul>
+                  <p class="mt-3 p-4 fw-bold">كل المدن</p>
+                  <ul class="d-flex flex-wrap gap-3 list-unstyled">
+                  <li>
+                    <span>عدن</span>
+                  </li>
+                  <li>
+                    
+                    <span>لحج</span>
+                  </li>
+                  <li>
+                    
+                    <span>تعز</span>
+                  </li>
+                  <li>
+                    <span>المخا</span>
+                  </li>
+                  <li>
+                    <span>التربة</span>
+                  </li>
+                  <li>
+                    <span>العين</span>
+                  </li>
+                  <li>
+                    <span>النشمة</span>
+                  </li>
+                  <li>
+                    <span>الحديدة</span>
+                  </li>
+                  <li>
+                    <span>زبيد</span>
+                  </li>
+                  <li>
+                    <span>بيت الفقيه</span>
+                  </li>
+                  <li>
+                    <span>زنجبار</span>
+                  </li>
+                  <li>
+                    <span>لودر</span>
+                  </li>
+                  <li>
+                    <span>مودية</span>
+                  </li>
+                  <li>
+                    <span>عتق</span>
+                  </li>
+                  <li>
+                    <span>سيئون</span>
+                  </li>
+                  <li>
+                    <span>المكلا</span>
+                  </li>
+                  <li>
+                    <span>الغيضة</span>
+                  </li>
+                  <li>
+                    <span>شحن</span>
+                  </li>
+                  <li>
+                    <span>مأرب</span>
+                  </li>
+                  <li>
+                    <span>الضالع</span>
+                  </li>
+                </ul>
+                  <ul class="d-flex flex-wrap gap-3 list-unstyled">
+                  <li>
+                    <span>سيارات</span>
+                  </li>
+                  <li>
+                    
+                    <span>اكسسوارات المركبات</span>
+                  </li>
+                  <li>
+                    
+                    <span>الحافلات والشاحنات</span>
+                  </li>
+                  <li>
+                    <span>المقطورات</span>
+                  </li>
+                  <li>
+                    <span>صيانة اصلاح السيارات</span>
+                  </li>
+                  <li>
+                    <span>تقييمات الدراجات</span>
+                  </li>
+                </ul>
+                <p class="mt-3 p-4 fw-bold">مكاتب الايجار</p>
+ <ul class="d-flex flex-wrap gap-3 list-unstyled">
+                  <li>
+                    <span>مكتب الكوكباني</span>
+                  </li>
+                  <li>
+                    
+                    <span>عمر العمودي</span>
+                  </li>
+                </ul>
+                <p class="mt-3 p-4 fw-bold">خدمات تنظيف السيارات</p>
+ <ul class="d-flex flex-wrap gap-3 list-unstyled">
+                  <li>
+                    <span>اليات ثقيله</span>
+                  </li>
+                  <li>
+                    
+                    <span>خدمات ونش</span>
+                  </li>
+                  <li>
+                    
+                    <span>محطات</span>
+                  </li>
+                  <li>
+                    
+                    <span>سطحات</span>
+                  </li>
+                  <li>
+                    
+                    <span>تقييمات السيارات</span>
+                  </li>
+                  <li>
+                    
+                    <span>قطع غيار السيارات</span>
+                  </li>
+                  <li>
+                    
+                    <span>اطارات</span>
+                  </li>
+                  <li>
+                    
+                    <span>بطاريات</span>
+                  </li>
+                  <li>
+                    
+                    <span>بنشر</span>
+                  </li>
+                  <li>
+                    
+                    <span>محطات بترول</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="services-card h-100">
+              <div class="heading">
+                <h3> نادى السيارات</h3>
+              </div>
+              <div class="p-4 body-heading">
+                <h4> معلومات الخدمة :</h4>
+                <p>عبارة عن نادي عين بالمنافذ اليمنية تقدم من خلالها كل خدماته الكترونيا اونلاين عن طريق تعبئة الاتي :</p>
+              </div>
+              <div class="service-body p-2">
+                <ul class="d-flex flex-wrap gap-3 list-unstyled">
+                  <li>
+                    <span>بيانات المركبة</span>
+                  </li>
+                  <li>
+                    
+                    <span>الماركة</span>
+                  </li>
+                  <li>
+                    
+                    <span>الموديل</span>
+                  </li>
+                  <li>
+                    <span>اللون</span>
+                  </li>
+                  <li>
+                    <span>رقم القعادة</span>
+                  </li>
+                  <li>
+                    <span>رقم اللوحة المعدنية</span>
+                  </li>
+                  <li>
+                    <span>رقم المحرك</span>
+                  </li>
+                  <li>
+                    <span class="d-block">اسعار الخدمة:</span>
+                  </li>
+                </ul>
+                   <div class="px-5 mt-2 d-flex flex-column gap-2 justify-content-center align-items-center">
+                      <p>
+                        رسوم تأشيرة دخول 500 سعودى
+                      </p>
+                      <p>
+                        رسوم تحديد التأشيرة  100 سعودى
+                      </p>
+                      <p>
+                        رسوم تأشيرة المغادرة 500$
+                      </p>
+                      <p>
+                      رسوم القواطر مع التأمين 860 سعودى
+                      </p>
+                      <p>
+                        الرخصة الدولية 25$
+                      </p>
+                    </div>
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-lg-6">
+            <div class="services-card h-100">
+              <div class="heading">
+                <h3> شحن :</h3>
+              </div>
+              <div class="p-4 body-heading">
+                <h4> معلومات الخدمة :</h4>
+              </div>
+              <div class="service-body p-2">
+                 <p> تعاني من تأخر وفقدان وسرقة مقتنيات سيارتك وتلخبط الطلبات وكثرة الغلطات؟</p>
+                <p>الحل منصة سيارتي توفرلك من علي تليفونك برقم الواتساب وتحت خدمة بصمة أتباع الخطوات الاتيه:</p>
+                <ul class="d-flex flex-column gap-2 justify-content-center align-items-center">
+                <li>اسم المستلم ثلاثي........ اللقب</li>
+                <li>المحافظة</li>
+                <li>العنوان تفصيلي</li>
+                <li>واتساب المستلم</li>
+                <li>موبايل استلام المستلم</li>
+                <li>الشركة المؤمنة</li>
+                </ul>
+              </div>
+            </div>
+          </div
+        </div>
+    </div>
+    </section>
+    <section class="py-5 document">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-12 text-center mb-3">
+            <h3 class="section-title">
+              <i class="fas fa-images me-2"></i>
+               بعض المستندات 
+            </h3>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="h-100">
+              <div class="image h-100">
+                <img src="images/img4.jpg" 
+                     class="img-fluid rounded h-100" alt="الصورة الأمامية للهوية">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="h-100">
+              <div class="image h-100">
+                <img src="images/img5.jpg" 
+                     class="img-fluid rounded h-100" alt="الصورة الخلفية للهوية">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5">
+      <div class="container my-4">
+  <div class="swiper" dir="rtl">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="images/car.jpg" class="img-fluid" alt="Slide 1">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/car1.jpg" class="img-fluid" alt="Slide 2">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/car2.jpg" class="img-fluid" alt="Slide 3">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/car3.jpg" class="img-fluid" alt="Slide 3">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/car4.jpg" class="img-fluid" alt="Slide 3">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/car5.jpg" class="img-fluid" alt="Slide 3">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/car6.jpg" class="img-fluid" alt="Slide 3">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/car7.jpg" class="img-fluid" alt="Slide 3">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/car8.jpg" class="img-fluid" alt="Slide 3">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/car9.jpg" class="img-fluid" alt="Slide 3">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/car10.jpg" class="img-fluid" alt="Slide 3">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/car11.jpg" class="img-fluid" alt="Slide 3">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/car12.jpg" class="img-fluid" alt="Slide 3">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/car13.jpg" class="img-fluid" alt="Slide 3">
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+  </div>
+</div>
+
+    </section>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="footer-content text-center">
+              <h6>نظام إدارة الخدمات المرورية</h6>
+              <p>خدمة متميزة وموثوقة لجميع احتياجاتكم المرورية</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+<script src="js/bootstrap.bundle.min.js"></script>  
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
