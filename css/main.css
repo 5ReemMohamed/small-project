@@ -24,6 +24,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-padding-top: 75px;
+}
 
 body {
   font-family: 'Cairo', sans-serif;
@@ -33,7 +36,21 @@ body {
   min-height: 100vh;
   direction: rtl;
 }
-
+    .navbar {
+      background-color: rgb(17, 17, 17);
+    }
+    .navbar-brand, .nav-link, .navbar-toggler-icon {
+      color: white;
+    }
+    .nav-link:hover {
+      color: #f1c40f;
+    }
+    .navbar-toggler {
+      border: none;
+    }
+    .navbar-toggler:focus {
+      box-shadow: none;
+    }
 .main-header {
   background-image: linear-gradient(rgba(17, 17, 17, 0.6),rgba(17, 17, 17, 0.6)), url("https://axemobile.widagdos.net/images/car-dashboard-modern-luxury-interior-steering-wh-2025-01-10-13-41-08-utc.jpg");
   height: 100vh;
@@ -898,3 +915,20 @@ body {
   left: 10px;
   right: auto;
 }
+ #scrollTopBtn {
+    position: fixed;
+    bottom: 30px;
+    left: 30px; 
+    display: none;
+    z-index: 9999;
+    width: 55px;
+    height: 55px;
+    font-size: 20px;
+    padding: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: var(--accent-color);
+    color: white;
+  }
+  .text-orange{
+    color: #ff753c;
+  }

@@ -11,7 +11,33 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <header class="main-header">
+    <nav class="navbar navbar-expand-lg py-3 border-bottom border-secondary position-fixed fixed-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <i class="fas fa-car ms-3 text-orange"></i> سيارتي
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+      <i class="fas fa-bars text-white"></i>
+    </button>
+    <div class="collapse navbar-collapse mt-5 mt-lg-0" id="navbarMenu">
+      <ul class="navbar-nav d-flex justify-content-center align-items-center gap-4 me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">الرئيسية</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#main">حول</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">الخدمات</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">اتصل بنا</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <header class="main-header" id="home">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12">
@@ -550,9 +576,15 @@
         </div>
       </div>
     </section>
-    <section class="py-5 bg-white">
+    <section class="py-5 bg-white" id="services">
       <div class="container">
         <div class="row g-4">
+          <div class="col-12 text-center mb-5">
+            <h3 class="section-title">
+              <i class="fas fa-tools me-2"></i>
+              الخدمات
+            </h3>
+          </div>
           <div class="col-lg-6">
             <div class="services-card h-100">
               <div class="heading">
@@ -1088,6 +1120,10 @@
         </div>
       </div>
     </footer>
+    <button id="scrollTopBtn" class="btn rounded-circle">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
 <script src="js/bootstrap.bundle.min.js"></script>  
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
