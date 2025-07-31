@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #2c5aa0;
-  --secondary-color: #f8b500;
+  --secondary-color: #dfa503;
   --accent-color: #e74c3c;
   --success-color: #27ae60;
   --warning-color: #f39c12;
@@ -709,9 +709,10 @@ body {
   background: var(--gradient-primary);
   color: white;
   padding: 2rem 0;
-  margin-top: 3rem;
 }
-
+.footer-content{
+  border-bottom: 1px solid #d4edda92;
+}
 .footer-content h6 {
   font-weight: 700;
   margin-bottom: 0.5rem;
@@ -918,7 +919,7 @@ body {
  #scrollTopBtn {
     position: fixed;
     bottom: 30px;
-    left: 30px; 
+    right: 30px; 
     display: none;
     z-index: 9999;
     width: 55px;
@@ -932,3 +933,81 @@ body {
   .text-orange{
     color: #ff753c;
   }
+  .btn-whatsapp{
+    padding: 12px 24px;
+    background-color: var(--primary-color);
+    color: white;
+    border: 1px solid var(--primary-color);
+    font-size: 1.07rem;
+        font-weight: 600;
+
+    transition: all 0.5s ease-in-out;
+  }
+    .btn-whatsapp:hover{
+       background-color: var(--primary-color);
+       transform: scale(1.04);
+    color: white;
+    border: 1px solid var(--primary-color);
+        box-shadow: var(--shadow-medium);
+
+    }
+    .btn-call{
+       padding: 12px 24px;
+    background-color:#f15919;
+    color: white;
+    font-weight: 600;
+    border: 1px solid #f15919;
+    font-size: 1.07rem;
+       transition: all 0.5s ease-in-out;
+    }
+    .btn-call:hover{
+      background-color:#f15919;
+    color: white;
+     transform: scale(1.04);
+    border: 1px solid #f15919;
+    box-shadow: var(--shadow-medium);
+    }
+    .contact{
+ background-image: linear-gradient(rgba(17, 17, 17, 0.8),rgba(17, 17, 17, 0.8)), url("../images/contact.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;   
+  padding: 80px 0 !important; 
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  left: 20px; 
+  background-color: #25d366;
+  color: white;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  color: white;
+  text-decoration: none;
+}
+.company-design{
+  padding: 20px 0px;
+  text-align: center;
+}
+.company-design a{
+  text-decoration: none;
+  color: #ffbd08;
+  font-size: 1.4rem;
+  margin: 0px 4px;
+  letter-spacing: 1px;
+  display: inline-block;
+  font-weight: 800;
+}
