@@ -29,3 +29,20 @@
   scrollBtn.onclick = function () {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+  const navbarCollapse = document.querySelector('.navbar-collapse');
+  const navbarToggler = document.querySelector('.navbar-toggler');
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      if (window.innerWidth < 992) {
+        new bootstrap.Collapse(navbarCollapse).hide();
+      }
+    });
+  });
+  document.addEventListener('click', (event) => {
+    const isClickInsideMenu = navbarCollapse.contains(event.target);
+    const isClickOnToggle = navbarToggler.contains(event.target);
+    if (!isClickInsideMenu && !isClickOnToggle && navbarCollapse.classList.contains('show')) {
+      new bootstrap.Collapse(navbarCollapse).hide();
+    }
+  });
