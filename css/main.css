@@ -54,6 +54,15 @@ body {
     .navbar-brand:hover{
       color: white !important;
     }
+    .navbar-brand img {
+    max-height: 50px;   
+    width: auto;        
+    transition: transform 0.3s ease; 
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.05);
+}
 .main-header {
   background-image: linear-gradient(rgba(17, 17, 17, 0.6),rgba(17, 17, 17, 0.6)), url("https://axemobile.widagdos.net/images/car-dashboard-modern-luxury-interior-steering-wh-2025-01-10-13-41-08-utc.jpg");
   height: 100vh;
